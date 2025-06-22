@@ -134,12 +134,9 @@ function MainComponent() {
             <span className="text-[#FF3366] font-bold"> production-ready MVPs in 14 days starting at just $4,000</span> 
 
           </p>
-          <p className="text-xl text-[#B8C7FF]/80 font-poppins">
-            🚀 AI-Powered Development • 💰 70% Cost Savings • ⚡ 10x Faster Delivery
-          </p>
         </div>
 
-        <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
+        <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-6">
           <a
             href="https://calendly.com/weblisite/meeting"
             target="_blank"
@@ -153,6 +150,12 @@ function MainComponent() {
           <div className="text-[#B8C7FF] text-sm font-poppins">
             💳 Only 50% upfront payment • 🔒 100% money-back guarantee
           </div>
+        </div>
+
+        <div className="text-center mb-12">
+          <p className="text-xl text-[#B8C7FF]/80 font-poppins">
+            🚀 AI-Powered Development • 💰 70% Cost Savings • ⚡ 10x Faster Delivery
+          </p>
         </div>
 
         {/* Urgency & Scarcity */}
