@@ -118,12 +118,12 @@ function MainComponent() {
           </span>
         </div>
 
-        <h1 className="text-7xl md:text-8xl font-bold mb-8 font-poppins animate-glow relative leading-tight">
+        <h1 className="text-4xl md:text-8xl font-bold mb-8 font-poppins animate-glow relative leading-tight">
           <span className="bg-clip-text text-transparent bg-gradient-to-r from-[#FF3366] to-[#FF9933]">
             Stop Wasting Months
           </span>
           <br />
-          <span className="text-white text-5xl md:text-6xl">
+          <span className="text-white text-3xl md:text-6xl">
             Building Your MVP
           </span>
         </h1>
