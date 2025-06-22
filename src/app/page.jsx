@@ -137,16 +137,16 @@ function MainComponent() {
         </div>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-6">
-          <a
-            href="https://calendly.com/weblisite/meeting"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+        <a
+          href="https://calendly.com/weblisite/meeting"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
             <button className="px-16 py-6 rounded-full text-2xl font-poppins bg-gradient-to-r from-[#FF3366] to-[#FF9933] hover:from-[#FF9933] hover:to-[#FF3366] transition-all duration-300 shadow-2xl hover:shadow-[#FF3366]/50 transform hover:scale-105 relative overflow-hidden group">
               <span className="relative z-10">Get My MVP Built in 14 Days →</span>
               <div className="absolute inset-0 bg-gradient-to-r from-[#FF9933] to-[#FF3366] opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-            </button>
-          </a>
+          </button>
+        </a>
           <div className="text-[#B8C7FF] text-sm font-poppins">
             💳 Only 50% upfront payment • 🔒 100% money-back guarantee
           </div>
@@ -212,7 +212,7 @@ function MainComponent() {
         <div className="text-center mb-16">
           <h2 className="text-5xl md:text-6xl font-bold mb-6 font-poppins bg-clip-text text-transparent bg-gradient-to-r from-[#FF3366] to-[#FF9933]">
             The AI Revolution is Here
-          </h2>
+        </h2>
           <p className="text-2xl text-[#B8C7FF] max-w-4xl mx-auto font-poppins">
             While others are stuck in the stone age, we're building the future with 
             <span className="text-[#FF3366] font-bold"> cutting-edge AI technology</span>
@@ -231,7 +231,7 @@ function MainComponent() {
             </p>
             <div className="bg-[#FF3366]/10 p-4 rounded-xl border border-[#FF3366]/20">
               <p className="text-[#FF3366] font-bold">⚡ Result: Last client got their MVP in 14 days, not 6 months</p>
-            </div>
+          </div>
           </div>
 
           <div className="card-3d bg-gradient-to-br from-[#2A1B4A]/80 to-[#4A1B8C]/80 p-10 rounded-2xl backdrop-blur-lg border border-[#FF3366]/10 hover:border-[#FF3366]/30 transform hover:scale-105 transition-all duration-300">
@@ -245,7 +245,7 @@ function MainComponent() {
             </p>
             <div className="bg-[#FF9933]/10 p-4 rounded-xl border border-[#FF9933]/20">
               <p className="text-[#FF9933] font-bold">🏆 99.9% uptime guarantee • Bank-level security included</p>
-            </div>
+          </div>
           </div>
 
           <div className="card-3d bg-gradient-to-br from-[#2A1B4A]/80 to-[#4A1B8C]/80 p-10 rounded-2xl backdrop-blur-lg border border-[#FF3366]/10 hover:border-[#FF3366]/30 md:col-span-2 transform hover:scale-105 transition-all duration-300">
@@ -253,7 +253,7 @@ function MainComponent() {
               <div className="text-6xl mb-6">🎯</div>
               <h3 className="text-3xl font-bold mb-6 font-poppins text-[#FF9933]">
                 Proven Success Stories That Will Blow Your Mind
-              </h3>
+            </h3>
             </div>
             <div className="grid md:grid-cols-3 gap-6">
               <div className="p-6 bg-gradient-to-br from-[#FF3366]/10 to-[#FF9933]/10 rounded-xl border border-[#FF3366]/20">
@@ -798,10 +798,10 @@ function MainComponent() {
           </div>
         </div>
       </section>
-      <section className="py-20 px-4 relative bg-gradient-to-br from-[#2A1B4A]/90 to-[#4A1B8C]/90 backdrop-blur-lg">
-        <h2 className="text-4xl md:text-5xl font-bold text-center mb-16 font-poppins bg-clip-text text-transparent bg-gradient-to-r from-[#FF3366] to-[#FF9933]">
-          What's Included in Your MVP
-        </h2>
+        <section className="py-20 px-4 relative bg-gradient-to-br from-[#2A1B4A]/90 to-[#4A1B8C]/90 backdrop-blur-lg">
+          <h2 className="text-4xl md:text-5xl font-bold text-center mb-16 font-poppins bg-clip-text text-transparent bg-gradient-to-r from-[#FF3366] to-[#FF9933]">
+            What's Included in Your MVP
+          </h2>
           <div className="max-w-7xl mx-auto">
             <p className="text-xl text-center text-[#B8C7FF] mb-12">
               Every MVP we build is{" "}
@@ -1507,7 +1507,7 @@ function MainComponent() {
         <div className="text-center mb-20">
           <h2 className="text-5xl md:text-6xl font-bold mb-6 font-poppins bg-clip-text text-transparent bg-gradient-to-r from-[#FF3366] to-[#FF9933]">
             Choose Your Success Package
-          </h2>
+        </h2>
           <p className="text-2xl text-[#B8C7FF] max-w-4xl mx-auto font-poppins mb-8">
             Stop comparing us to expensive agencies. We're <span className="text-[#FF3366] font-bold">10x faster</span> and 
             <span className="text-[#FF9933] font-bold"> 70% cheaper</span> than traditional development
@@ -1575,8 +1575,8 @@ function MainComponent() {
                 </h3>
                 <div className="mb-4">
                   <div className="text-4xl font-bold text-white mb-2">
-                    {plan.price}
-                  </div>
+                  {plan.price}
+                </div>
                   {index === 0 && (
                     <div className="text-sm text-[#B8C7FF] line-through">
                       Was $3,000
@@ -1609,7 +1609,7 @@ function MainComponent() {
                     {index === 0 && "Save $48K vs traditional agency"}
                     {index === 1 && "Save $76K vs traditional agency"}
                     {index === 2 && "Save $144K vs traditional agency"}
-                  </p>
+                </p>
                 </div>
                 
                 <ul className="mb-8">
@@ -1631,8 +1631,8 @@ function MainComponent() {
                     <li>• FREE AI chatbot integration</li>
                     <li>• Priority 7-day delivery</li>
                     <li>• 60 days post-launch support</li>
-                  </ul>
-                </div>
+                </ul>
+              </div>
               </div>
               
               <div className="w-full">
@@ -2006,58 +2006,58 @@ function MainComponent() {
               </li>
             </ul>
           </div>
-          <div>
-            <h3 className="text-2xl font-bold mb-6 font-poppins text-[#FF9933]">
-              Services
-            </h3>
-            <ul className="space-y-3 text-[#B8C7FF]">
-              <li>
-                <a
-                  target="_self"
-                  href="https://calendly.com/weblisite/meeting"
-                  className="hover:text-[#FF3366]"
-                >
-                  MVP Development
-                </a>
-              </li>
-              <li>
-                <a
-                  target="_self"
-                  href="https://calendly.com/weblisite/meeting"
-                  className="hover:text-[#FF3366]"
-                >
-                  AI Integration
-                </a>
-              </li>
-              <li>
-                <a
-                  target="_self"
-                  href="https://calendly.com/weblisite/meeting"
-                  className="hover:text-[#FF3366]"
-                >
-                  UI/UX Design
-                </a>
-              </li>
-              <li>
-                <a
-                  target="_self"
-                  href="https://calendly.com/weblisite/meeting"
-                  className="hover:text-[#FF3366]"
-                >
-                  Cloud Solutions
-                </a>
-              </li>
-              <li>
-                <a
-                  target="_self"
-                  href="https://calendly.com/weblisite/meeting"
-                  className="hover:text-[#FF3366]"
-                >
-                  API Development
-                </a>
-              </li>
-            </ul>
-          </div>
+            <div>
+              <h3 className="text-2xl font-bold mb-6 font-poppins text-[#FF9933]">
+                Services
+              </h3>
+              <ul className="space-y-3 text-[#B8C7FF]">
+                <li>
+                  <a
+                    target="_self"
+                    href="https://calendly.com/weblisite/meeting"
+                    className="hover:text-[#FF3366]"
+                  >
+                    MVP Development
+                  </a>
+                </li>
+                <li>
+                  <a
+                    target="_self"
+                    href="https://calendly.com/weblisite/meeting"
+                    className="hover:text-[#FF3366]"
+                  >
+                    AI Integration
+                  </a>
+                </li>
+                <li>
+                  <a
+                    target="_self"
+                    href="https://calendly.com/weblisite/meeting"
+                    className="hover:text-[#FF3366]"
+                  >
+                    UI/UX Design
+                  </a>
+                </li>
+                <li>
+                  <a
+                    target="_self"
+                    href="https://calendly.com/weblisite/meeting"
+                    className="hover:text-[#FF3366]"
+                  >
+                    Cloud Solutions
+                  </a>
+                </li>
+                <li>
+                  <a
+                    target="_self"
+                    href="https://calendly.com/weblisite/meeting"
+                    className="hover:text-[#FF3366]"
+                  >
+                    API Development
+                  </a>
+                </li>
+              </ul>
+            </div>
           <div>
             <h3 className="text-2xl font-bold mb-6 font-poppins text-[#FF9933]">
               Contact Info
