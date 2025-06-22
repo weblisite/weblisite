@@ -139,22 +139,7 @@ function MainComponent() {
           </p>
         </div>
 
-        {/* Urgency & Scarcity */}
-        <div className="bg-gradient-to-r from-[#FF3366]/10 to-[#FF9933]/10 border border-[#FF3366]/30 rounded-2xl p-6 mb-12 max-w-2xl mx-auto backdrop-blur-lg">
-          <div className="flex items-center justify-center mb-3">
-            <div className="w-3 h-3 bg-[#FF3366] rounded-full animate-pulse mr-3"></div>
-            <span className="text-[#FF3366] font-bold text-lg">LIMITED TIME OFFER</span>
-          </div>
-          <p className="text-white font-poppins text-lg">
-            First 10 clients this month get <span className="text-[#FF9933] font-bold">FREE priority support</span> + 
-            <span className="text-[#FF3366] font-bold"> 50% faster delivery</span>
-          </p>
-          <div className="text-[#B8C7FF] text-sm mt-2">
-            ⏰ Only <span className="text-[#FF3366] font-bold">3 spots remaining</span> for {currentDate.month} {currentDate.year}
-          </div>
-        </div>
-
-        <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+        <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
           <a
             href="https://calendly.com/weblisite/meeting"
             target="_blank"
@@ -167,6 +152,21 @@ function MainComponent() {
           </a>
           <div className="text-[#B8C7FF] text-sm font-poppins">
             💳 Only 50% upfront payment • 🔒 100% money-back guarantee
+          </div>
+        </div>
+
+        {/* Urgency & Scarcity */}
+        <div className="bg-gradient-to-r from-[#FF3366]/10 to-[#FF9933]/10 border border-[#FF3366]/30 rounded-2xl p-6 mb-12 max-w-2xl mx-auto backdrop-blur-lg">
+          <div className="flex items-center justify-center mb-3">
+            <div className="w-3 h-3 bg-[#FF3366] rounded-full animate-pulse mr-3"></div>
+            <span className="text-[#FF3366] font-bold text-lg">LIMITED TIME OFFER</span>
+          </div>
+          <p className="text-white font-poppins text-lg">
+            First 10 clients this month get <span className="text-[#FF9933] font-bold">FREE priority support</span> + 
+            <span className="text-[#FF3366] font-bold"> 50% faster delivery</span>
+          </p>
+          <div className="text-[#B8C7FF] text-sm mt-2">
+            ⏰ Only <span className="text-[#FF3366] font-bold">3 spots remaining</span> for {currentDate.month} {currentDate.year}
           </div>
         </div>
 
