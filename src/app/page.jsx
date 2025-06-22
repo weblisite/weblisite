@@ -143,7 +143,7 @@ function MainComponent() {
             rel="noopener noreferrer"
           >
             <button className="px-16 py-6 rounded-full text-2xl font-poppins bg-gradient-to-r from-[#FF3366] to-[#FF9933] hover:from-[#FF9933] hover:to-[#FF3366] transition-all duration-300 shadow-2xl hover:shadow-[#FF3366]/50 transform hover:scale-105 relative overflow-hidden group">
-              <span className="relative z-10">Get My MVP in 14 Days →</span>
+              <span className="relative z-10">Get My MVP Built in 14 Days →</span>
               <div className="absolute inset-0 bg-gradient-to-r from-[#FF9933] to-[#FF3366] opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
             </button>
           </a>
